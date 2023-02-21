@@ -18,5 +18,5 @@ def feb_rec(m):
 
 
 if __name__ == "__main__":
-    #print(feb_rec_item(19))    # 19th Fibonacci item
-    #print(feb_rec(19))         # Fibonacci series from 0 to 19 item
+    print(feb_rec_item(19))    # 19th Fibonacci item
+    print(feb_rec(19))         # Fibonacci series from 0 to 19 item
