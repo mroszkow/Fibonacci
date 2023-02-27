@@ -1,5 +1,5 @@
 import pytest
-from fib_seq import feb_seq_item
+from fib_seq import fib_seq_item
 
 
 @pytest.mark.parametrize(
@@ -36,9 +36,9 @@ from fib_seq import feb_seq_item
     ],
 )
 def test_fib_seq_item(input_number, result):
-    assert feb_seq_item(input_number) == result
+    assert fib_seq_item(input_number) == result
 
 
 def test_fib_seq_item_float_input():
     with pytest.raises(TypeError):
-        feb_seq_item(1.8)
+        fib_seq_item(1.8)

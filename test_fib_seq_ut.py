@@ -1,13 +1,13 @@
 import unittest
-from fib_seq import feb_seq_item
+from fib_seq import fib_seq_item
 
 
 class TestFib_seq_item(unittest.TestCase):
     def test_fib_seq_item(self):
-        self.assertEqual(feb_seq_item(0), [0])
-        self.assertEqual(feb_seq_item(1), [0, 1])
+        self.assertEqual(fib_seq_item(0), [0])
+        self.assertEqual(fib_seq_item(1), [0, 1])
         self.assertEqual(
-            feb_seq_item(19),
+            fib_seq_item(19),
             [
                 0,
                 1,
@@ -31,10 +31,10 @@ class TestFib_seq_item(unittest.TestCase):
                 4181,
             ],
         )
-        self.assertEqual(feb_seq_item(-5), [])
+        self.assertEqual(fib_seq_item(-5), [])
 
         with self.assertRaises(TypeError):
-            feb_seq_item(1.8)
+            fib_seq_item(1.8)
 
 
 if __name__ == "__main__":
