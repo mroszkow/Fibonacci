@@ -1,5 +1,6 @@
 import pytest
-from fib_seq import fib_seq_item
+
+from fibonacci.fib_seq import fib_seq_item
 
 
 @pytest.mark.parametrize(

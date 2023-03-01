@@ -1,5 +1,6 @@
 import unittest
-from fib_seq import fib_seq_item
+
+from fibonacci.fib_seq import fib_seq_item
 
 
 class TestFib_seq_item(unittest.TestCase):

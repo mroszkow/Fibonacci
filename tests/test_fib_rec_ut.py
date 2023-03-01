@@ -1,5 +1,6 @@
 import unittest
-from fib_rec import fib_rec_item, fib_rec
+
+from fibonacci.fib_rec import fib_rec_item, fib_rec
 
 
 class TestFib_rec(unittest.TestCase):
