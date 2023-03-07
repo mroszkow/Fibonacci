@@ -1,4 +1,4 @@
-def feb_seq_item(n: int) -> int:
+def fib_seq_item(n: int) -> int:
     fibonacci_numbers = []
     one_step_back = 1
     two_step_back = 0
@@ -15,4 +15,4 @@ def feb_seq_item(n: int) -> int:
 
 
 if __name__ == "__main__":
-    print(feb_seq_item(19))
+    print(fib_seq_item(19))
