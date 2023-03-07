@@ -1,5 +1,6 @@
 import pytest
-from fib_rec import fib_rec_item, fib_rec
+
+from fibonacci.fib_rec import fib_rec_item, fib_rec
 
 @pytest.mark.parametrize("input_number,result", [
     (0, 0),
